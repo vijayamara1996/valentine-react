@@ -53,7 +53,7 @@ export default function App() {
   const handleYesClick = () => {
     yesSound.play();
     setTimeout(() => {
-      window.location.href = "/yes_page.html";
+      window.location.href = "valentine-react/yes_page.html";
     }, 500);
   };
 
